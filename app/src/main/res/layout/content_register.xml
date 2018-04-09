@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+ android:orientation="vertical"
+   android:layout_height="match_parent"
+android:layout_width="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/h1"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:id="@+id/tv1"
+        android:layout_weight="0.02"
+        android:textColor="#0e89ed"
+        android:textSize="30dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_x="3dp"
+        android:layout_y="60dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et1"
+        android:layout_weight="0.02"
+        android:hint="Username"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/tv2"
+        android:layout_alignParentStart="true"
+        android:layout_x="1dp"
+        android:layout_y="85dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:text="Password"
+        android:id="@+id/tv2"
+        android:textSize="30dp"
+        android:layout_weight="0.02"
+        android:textColor="#0e89ed"
+        android:layout_marginTop="75dp"
+        android:layout_below="@+id/et2"
+        android:layout_alignParentStart="true"
+        android:layout_x="3dp"
+        android:layout_y="146dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:hint="Password"
+
+        android:id="@+id/et2"
+        android:layout_weight="0.02"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_x="-1dp"
+        android:layout_y="184dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/b1"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.02"
+        android:layout_marginBottom="43dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_x="144dp"
+        android:layout_y="267dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register here"
+        android:id="@+id/tv3"
+        android:layout_x="140dp"
+        android:layout_y="331dp"
+        android:textSize="16dp"
+        android:textColor="#0e89ed" />
+
+
+</AbsoluteLayout>
+
+
+

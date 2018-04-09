@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">EventBook1</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">login</string>
+    <string name="title_activity_register">register</string>
+    <string name="title_activity_user_area">user_area</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_user_area2">user_area2</string>
+    <string name="title_activity_user_area3">user_area3</string>
+    <string name="title_activity_login2">login2</string>
+    <string name="title_activity_register2">register2</string>
+
+    <string name="title_activity_splash">splash</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_splashscreen5">splashscreen5</string>
+    <string name="title_activity_user_area5">user_area5</string>
+</resources>

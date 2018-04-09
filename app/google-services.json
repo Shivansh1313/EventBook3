@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "676291532489",
+    "firebase_url": "https://eventbook-8fd9e.firebaseio.com",
+    "project_id": "eventbook-8fd9e",
+    "storage_bucket": "eventbook-8fd9e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676291532489:android:8bf1100551bd671c",
+        "android_client_info": {
+          "package_name": "com.example.inspiron.eventbook1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676291532489-67voojt1knk7pmsg84jipd4d53oppnsu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.inspiron.eventbook1",
+            "certificate_hash": "88552f2755144524aa7f4b3d0711428ac269b10a"
+          }
+        },
+        {
+          "client_id": "676291532489-9r6son7rhqbcrr4f8sj4s6rao5rc57k3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAse1ep5d9KVE0cGjgW9iiGIQxVCS2GBcM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676291532489-9r6son7rhqbcrr4f8sj4s6rao5rc57k3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
